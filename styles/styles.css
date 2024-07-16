@@ -16,9 +16,12 @@ body{
 .menu-list li{
   list-style: none;
   margin-left: 35px;
+  font-size: 15px;
+  font-weight: 400px;
 }
 .menu-list li a{
   text-decoration: none;
+  color: black;
 }
 .navbar{
   display: flex;
@@ -28,4 +31,91 @@ body{
 .menu-list{
   display: flex;
   align-items: center;
+}
+.nav-title{
+  font-size: 35px;
+  font-weight: 700;
+  color: black;
+}
+
+/* banner-section style */
+.banner-title{
+  width: 40%;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-heading{
+  font-size: 45px;
+  font-weight: 700px;
+  color: black;
+  margin: 0;
+}
+.banner-text{
+  font-size: 15px;
+  font-weight: 400px;
+  color: gray;
+  margin: 0;
+  margin-top: 20px;
+}
+.banner-button{
+  background-color: palevioletred;
+  font-size: 17px;
+  color: white;
+  border: none;
+  border-radius: 250px;
+  height: 40px;
+  width: 150px;
+  margin-top: 25px;
+}
+.banner-image{
+  padding: 20px;
+  margin-right: 20px;
+}
+
+/* make responsive for mobile phone */
+
+@media screen  and (max-width : 576px){
+  /* navbar responsive */
+  .navbar{
+    flex-direction: column;
+  }
+  .nav-title{
+    text-align: center;
+  }
+  .menu-list{
+    flex-direction: column;
+  }
+  .menu-list li{
+    margin-top: 15px;
+  }
+
+  /* banner responsive */
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-title{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner-heading{
+    font-size: 30px;
+    font-weight: 600px;
+  }
+}
+
+/* make responsive for tab */
+@media screen and (min-width: 576px) and (max-width: 1430px){
+  .menu-list{
+    flex-direction: column;
+  }
+  .menu-list li{
+    margin-top: 15px;
+  }
+  .banner-title{
+    width: 50%;
+  }
 }
