@@ -84,6 +84,7 @@ body{
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
   margin-top: 40px;
 }
 .esponsor-image{
@@ -121,6 +122,14 @@ body{
   .banner-heading{
     font-size: 30px;
     font-weight: 600px;
+  }
+
+  /* esponsor section */
+  .esponsors-section{
+    flex-wrap: wrap;
+  }
+  .esponsors-section li{
+    padding: 20px;
   }
 }
 
