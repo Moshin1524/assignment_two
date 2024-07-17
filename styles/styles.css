@@ -1,5 +1,5 @@
 /* common styles */
-body{
+nav, header, main{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   margin: 50px 80px;
@@ -189,6 +189,42 @@ body{
   margin-top: 20px;
 }
 
+/* footer styles */
+footer{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.footer-section{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: brown;
+  text-align: center;
+}
+.footer-title{
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.footer-text{
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.logo-list{
+  padding: 15px 0;
+}
+.logo-list li{
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
+.footer-logo{
+  height: 32px;
+  width: 32px;
+}
 
 /* make responsive for mobile phone */
 
